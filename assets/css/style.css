@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.holst {
+  width: 1920px;
+}
+.wrapper {
+  margin: 0 375px;
+  width: 1170px;
+}
+
+header {
+  height: 100px;
+  display: flex;
+}
+.logo_back {
+  width: 200px;
+  height: 100px;
+  background-color: #008ce6;
+  text-align: center;
+}
+.logo_back img {
+  margin: 30px auto;
+}
+header .links {
+  display: flex;
+  align-items: center;
+  margin-left: 115px;
+}
+
+.links a {
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+  height: 100px;
+  margin: 0 20px;
+  padding-top: 42px;
+}
+.links a:hover,
+.links a.active {
+  border-bottom: 7px red solid;
+  transition-duration: 0.2s;
+}
+.links a:hover {
+  padding-top: 48px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.phone_block {
+  margin-left: 14px;
+  margin-top: 3px;
+}
+.phone_name {
+  color: #bebebe;
+  line-height: 0px;
+  font-weight: 400;
+}
+.phone_number {
+  color: #be1e2d;
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: 700;
+  width: 125px;
+}
+.search {
+  margin-left: 60px;
+}
+
+
+.business {
+  background-image: url("../images/layer.png");
+  width: 1920px;
+  height: 800px;
+}
+.head_business {
+  vertical-align: middle;
+}
+.business h1 {
+  color: #ffffff;
+  font-size: 52px;
+  line-height: 1;
+  font-weight: 900;
+  padding-top: 300px;
+}
+.business p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 36px;
+  line-height: 2;
+  width: 670px;
+  padding-bottom: 36px;
+}
+.business .buttons {
+  margin-top: 30px;
+}
+.business button {
+  padding: 15px 30px;
+  font-size: 16px;
+  line-height: 1;
+  margin-right: 40px;
+  background-color: #008ce6;
+  border: 0px solid #008ce6;
+  border-radius: 7px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.business button:hover {
+  background-color: #ffffff;
+  color: #be1e2d;
+  transition-duration: 0.3s;
+  box-shadow: #ffffff;
+}
+
+
+.big_man {
+  background-color: #fefefe;
+  height: 700px;
+  background-image: url("../images/man.png");
+}
+.big_man .wrapper {
+  height: 700px;
+}
+.miniblocks {
+  width: 770px;
+  height: 500px;
+  display: flex;
+  margin-left: 400px;
+  padding-top: 100px;
+  flex-wrap: wrap;
+}
+
+.miniblock {
+  margin-inline: 3px;
+  margin-block: 3px;
+  width: 350px;
+  height: 250px;
+  background-color: white;
+  padding-left: 30px;
+  padding-top: 60px;
+  display: flex;
+}
+.miniblock h3 {
+  margin-left: 20px;
+  font-size: 18px;
+}
+.miniblock p {
+  margin-left: 20px;
+  width: 240px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #909cab;
+  margin-top: 20px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+
+
+
+
+

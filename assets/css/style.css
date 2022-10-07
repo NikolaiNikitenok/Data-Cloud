@@ -116,8 +116,8 @@ header .links {
 .business button:hover {
   background-color: #ffffff;
   color: #be1e2d;
-  transition-duration: 0.3s;
-  box-shadow: #ffffff;
+  transition-duration: 0.1s;
+  box-shadow: 2px 2px 2px #008ce6;
 }
 
 
@@ -147,6 +147,7 @@ header .links {
   padding-left: 30px;
   padding-top: 60px;
   display: flex;
+  box-shadow: 2px 2px 2px rgb(184, 184, 184);
 }
 .miniblock h3 {
   margin-left: 20px;
@@ -162,7 +163,38 @@ header .links {
   text-align: justify;
   font-size: 16px;
 }
-
+.questions {
+  background-color: #008ce6;
+}
+.poloska {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+}
+.poloska p {
+  color: white;
+  margin-top: 37px;
+  font-size: 22px;
+  font-weight: 100;
+}
+.poloska button {
+  margin-top: 26px;
+  padding: 15px 30px;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #ffffff;
+  color: #be1e2d;
+  border: 0px solid #ffffff;
+  border-radius: 7px;
+  font-weight: 700;
+  height: 50px;
+}
+button:hover {
+  background-color: #008ce6;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  
+}
 
 
 

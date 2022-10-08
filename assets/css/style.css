@@ -189,13 +189,48 @@ header .links {
   font-weight: 700;
   height: 50px;
 }
-button:hover {
+.poloska button:hover {
   background-color: #008ce6;
   color: #ffffff;
   border: 2px solid #ffffff;
   
 }
 
+.clients {
+  background-color: #fff;
+}
+.clients .wrapper {
+  height: 1020px;
+  padding-top: 100px;
+}
+.clients_header {
+  display: flex;
+  justify-content: space-between;
+}
+.clients_logo {
+  color: #003557;
+}
+.clients_logo h1 {
+  font-size: 36px;
+}
+.clients_logo p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+.slides {
+  text-align: center;
+  margin-top: 30px;
+}
+.slides a {
+  padding: 20px 0;
+  margin-inline: 10px;
+  color: #003557;
+  font-size: 16px;
+  border-bottom: solid 5px #efefef;
+}
+.slides a.active, .slides a:hover {
+  border-bottom: solid 5px #be1e2d;
+}
 
 
 
